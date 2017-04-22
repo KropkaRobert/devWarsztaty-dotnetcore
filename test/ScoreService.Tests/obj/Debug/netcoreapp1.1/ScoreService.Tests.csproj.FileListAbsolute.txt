@@ -6,8 +6,8 @@
 /home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.runtimeconfig.dev.json
 /home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.dll
 /home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.pdb
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.API.dll
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.API.pdb
 /home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/obj/Debug/netcoreapp1.1/ScoreService.Tests.AssemblyInfo.cs
 /home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/obj/Debug/netcoreapp1.1/ScoreService.Tests.dll
 /home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/obj/Debug/netcoreapp1.1/ScoreService.Tests.pdb
-/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.API.dll
-/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.API.pdb
