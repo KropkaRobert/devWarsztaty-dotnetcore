@@ -1,0 +1,11 @@
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/xunit.runner.utility.netstandard15.dll
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/xunit.runner.reporters.netstandard15.dll
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.deps.json
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.runtimeconfig.json
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.runtimeconfig.dev.json
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.dll
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/bin/Debug/netcoreapp1.1/ScoreService.Tests.pdb
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/obj/Debug/netcoreapp1.1/ScoreService.Tests.AssemblyInfo.cs
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/obj/Debug/netcoreapp1.1/ScoreService.Tests.dll
+/home/robert/devWarsztaty/ScoreService/test/ScoreService.Tests/obj/Debug/netcoreapp1.1/ScoreService.Tests.pdb
