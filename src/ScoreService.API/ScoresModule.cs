@@ -20,7 +20,7 @@ namespace ScoreService.API
             }
             else
             {
-                return httpContext.Response.WriteAsync("You are not allowed!");
+                return httpContext.Response.WriteAsync("You are not allowed! :(");
             }
         }
 
