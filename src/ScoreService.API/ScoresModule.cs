@@ -2,6 +2,7 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
+using ScoreService.API.Rules;
 
 namespace ScoreService.API
 {
@@ -9,9 +10,18 @@ namespace ScoreService.API
     {
         public Task GetScore(HttpContext httpContext)
         {
-            var result = DeserializeAsync<ApplicantRequest>(httpContext);
+            var applicantRequest = DeserializeAsync<ApplicantRequest>(httpContext);
 
-            return httpContext.Response.WriteAsync($"Hej {result.Name}! z ScoresModule");
+            var rulesService = new RulesService();
+
+            if (rulesService.ValidateAll(applicantRequest))
+            {
+                return httpContext.Response.WriteAsync($"Hello {applicantRequest.Name}! You are allowed!");
+            }
+            else
+            {
+                return httpContext.Response.WriteAsync("You are not allowed!");
+            }
         }
 
         public T DeserializeAsync<T>(HttpContext context) where T : class
@@ -38,5 +48,6 @@ namespace ScoreService.API
         public string Country { get; set; }
         public int Income { get; set; }
         public bool Mortgage { get; set; }
+        public int Age { get; set; }
     }
 }
