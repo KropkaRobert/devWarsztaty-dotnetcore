@@ -15,7 +15,8 @@ namespace ScoreService.API
                 .UseKestrel() // w starym .net używalibyśmy IIS
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
-                .UseUrls("http://localhost:5001")
+                //.UseUrls("http://localhost:5001")
+                .UseUrls("http://0.0.0.0:5001") //dla dockera
                 .UseStartup<Startup>()
                 .Build();
 
