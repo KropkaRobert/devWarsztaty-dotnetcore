@@ -16,7 +16,7 @@ namespace ScoreService.API
 
             if (rulesService.ValidateAll(applicantRequest))
             {
-                return httpContext.Response.WriteAsync($"Hello {applicantRequest.Name}! You are allowed!");
+                return httpContext.Response.WriteAsync($"Hello {applicantRequest.Name}! You are allowed!!!");
             }
             else
             {
